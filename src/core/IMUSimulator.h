@@ -1,7 +1,7 @@
 #ifndef IMU_SIMULATOR_H
 #define IMU_SIMULATOR_H
 
-#include <Eigen/Dense>
+#include "../../include/Eigen/Dense"
 #include "IMUSpec.h"
 
 // IMU simulator: generates accelerometer and gyro measurements with noise and bias
