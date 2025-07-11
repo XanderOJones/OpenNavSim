@@ -3,6 +3,7 @@
 
 #include "../../include/Eigen/Dense"
 #include "IMUSpec.h"
+#include "IMUMeasurement.h"
 
 // IMU simulator: generates accelerometer and gyro measurements with noise and bias
 class IMUSimulator {
@@ -10,12 +11,12 @@ public:
     // Construct with IMU spec and sample rate
     IMUSimulator(const IMUSpec& spec, double Fs);
 
+    IMUMeasurement meas;
+
     // Generate noisy measurements
     void generateMeasurement(
         const Eigen::Vector3d& true_accel,
-        const Eigen::Vector3d& true_gyro,
-        Eigen::Vector3d& noisy_accel,
-        Eigen::Vector3d& noisy_gyro
+        const Eigen::Vector3d& true_gyro
     );
 
 private:

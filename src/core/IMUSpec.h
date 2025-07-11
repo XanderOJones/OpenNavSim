@@ -11,6 +11,7 @@ struct IMUSpec {
     double accel_bi_sigma;
     double gyro_BI_Tc;
     double accel_BI_Tc;
+    double sample_rate;
 
     Eigen::Vector3d gyro_FB;
     Eigen::Vector3d gyro_BS;

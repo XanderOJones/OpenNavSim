@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build with g++",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-std=c++17",
+        "TestbenchDeadReckoning.cpp",
+        "src/core/INSMechanization/TangentialFrameMechanization.cpp",
+        "src/core/GroundTruthTrajectory.cpp",
+        "src/core/IMUSimulator.cpp",
+        "src/core/IMUSpec.cpp",
+        "src/core/SensorFusionEngine.cpp",
+        "src/core/State.cpp",
+        "src/core/TrajectoryData.cpp",
+        "-I.",
+        "-o",
+        "app.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

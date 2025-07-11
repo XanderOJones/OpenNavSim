@@ -38,8 +38,13 @@ IMUSpec IMUSpec::fromJson(const std::string& filename) {
     IMUSpec spec;
 
     std::ifstream f(filename);
+    if (!f.is_open()) {
+        throw std::runtime_error("Unable to open IMU spec file.");
+    }
     json j;
     f >> j;
+
+    spec.sample_rate = j["sample_rate"];
 
     spec.ARW = j["gyro"]["ARW"];
     spec.VRW = j["accel"]["VRW"];

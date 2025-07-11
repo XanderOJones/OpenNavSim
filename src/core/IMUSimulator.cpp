@@ -15,9 +15,7 @@ IMUSimulator::IMUSimulator(const IMUSpec& spec, double Fs)
 // Generate measurement
 void IMUSimulator::generateMeasurement(
     const Eigen::Vector3d& true_accel,
-    const Eigen::Vector3d& true_gyro,
-    Eigen::Vector3d& noisy_accel,
-    Eigen::Vector3d& noisy_gyro
+    const Eigen::Vector3d& true_gyro
 ) {
     updateFirstOrderMarkov(b_g_BI, wk_g_last,
                            imu_spec.gyro_bi_sigma,
@@ -41,11 +39,15 @@ void IMUSimulator::generateMeasurement(
         w_a(i) = sigma_a * nd(gen);
     }
 
-    noisy_gyro = b_g + (Eigen::Matrix3d::Identity() + imu_spec.M_g) * true_gyro
+    Eigen::Vector3d noisy_gyro = b_g + (Eigen::Matrix3d::Identity() + imu_spec.M_g) * true_gyro
                  + imu_spec.G_g * true_accel + w_g;
 
-    noisy_accel = b_a + (Eigen::Matrix3d::Identity() + imu_spec.M_a) * true_accel
+    Eigen::Vector3d noisy_accel = b_a + (Eigen::Matrix3d::Identity() + imu_spec.M_a) * true_accel
                   + w_a;
+
+    this->meas = IMUMeasurement(
+        noisy_accel, noisy_gyro
+    );
 }
 
 void IMUSimulator::updateFirstOrderMarkov(
