@@ -1,0 +1,27 @@
+cmake_minimum_required(VERSION 3.15)
+
+project(OpenNavSim)
+
+# Set C++ version
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Set include paths
+include_directories(
+    ${PROJECT_SOURCE_DIR}/include
+    ${PROJECT_SOURCE_DIR}/src/core
+    ${PROJECT_SOURCE_DIR}/src/core/INSMechanization
+    ${PROJECT_SOURCE_DIR}/src/utils
+    ${PROJECT_SOURCE_DIR}    # This is what "${workspaceFolder}/**" would match
+)
+
+# Collect source files (edit manually if you want strict control)
+file(GLOB_RECURSE SOURCES
+    ${PROJECT_SOURCE_DIR}/src/*.cpp
+    ${PROJECT_SOURCE_DIR}/src/core/*.cpp
+    ${PROJECT_SOURCE_DIR}/src/core/INSMechanization*.cpp
+    ${PROJECT_SOURCE_DIR}/TestBenchDeadReckoning.cpp
+)
+
+# Create the executable
+add_executable(OpenNavSim ${SOURCES})

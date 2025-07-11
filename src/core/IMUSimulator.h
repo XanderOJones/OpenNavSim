@@ -3,7 +3,7 @@
 
 #include "../../include/Eigen/Dense"
 #include "IMUSpec.h"
-#include "IMUMeasurement.h"
+#include "INSMechanization/IMUMeasurement.h"
 
 // IMU simulator: generates accelerometer and gyro measurements with noise and bias
 class IMUSimulator {

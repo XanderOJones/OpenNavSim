@@ -46,7 +46,7 @@ void IMUSimulator::generateMeasurement(
                   + w_a;
 
     this->meas = IMUMeasurement(
-        noisy_accel, noisy_gyro
+        true_accel, true_gyro
     );
 }
 
@@ -68,6 +68,6 @@ void IMUSimulator::updateFirstOrderMarkov(
     }
 
     // Bias update
-    b_BI = alpha * b_BI + wk_last;
+    b_BI = alpha * b_BI;
     wk_last = wk;
 }

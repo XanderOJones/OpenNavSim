@@ -25,10 +25,10 @@ public:
                 double dt) = 0;
 
     // Get current mechanized state
-    virtual State getState() const = 0;
+    virtual PVAState getState() const = 0;
 
     // Reset state to a new value
-    virtual void reset(const State& new_state) = 0;
+    virtual void reset(const PVAState& new_state) = 0;
 };
 
 #endif // INS_MECHANIZATION_BASE_H

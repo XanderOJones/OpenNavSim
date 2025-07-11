@@ -2,17 +2,16 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run with g++",
+      "name": "Launch MyApp",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/app.exe",
+      "program": "${workspaceFolder}/build/Debug/OpenNavSim",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
-      "externalConsole": true,
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "externalConsole": false,
+      "MIMode": "gdb", // or "lldb" or "gdb" depending on your OS
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",

@@ -1,7 +1,8 @@
 #ifndef IMU_SPEC_H
 #define IMU_SPEC_H
 
-#include <Eigen/Dense>
+#include "include/Eigen/Dense"
+
 
 // Holds IMU specs loaded from JSON
 struct IMUSpec {

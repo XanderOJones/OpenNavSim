@@ -20,8 +20,8 @@ inline Eigen::Matrix3d vec2ss(const Eigen::Vector3d& v) {
 
 inline Eigen::Matrix3d llh2DCM_ECEF2TANG(const Eigen::Vector3d& llh) {
     // Convert latitude, longitude, height to radians
-    double lat = llh(0) * M_PI / 180.0;
-    double lon = llh(1) * M_PI / 180.0;
+    double lat = llh(0) * PI / 180.0;
+    double lon = llh(1) * PI / 180.0;
 
     double sL = sin(lat);
     double cL = cos(lat);
@@ -39,8 +39,8 @@ inline Eigen::Matrix3d llh2DCM_ECEF2TANG(const Eigen::Vector3d& llh) {
 
 inline Eigen::Vector3d llh2xyz_ECEF2TANG(const Eigen::Vector3d& llh) {
     // Convert latitude, longitude, height to radians
-    double lat = llh(0) * M_PI / 180.0;
-    double lon = llh(1) * M_PI / 180.0;
+    double lat = llh(0) * PI / 180.0;
+    double lon = llh(1) * PI / 180.0;
     double h = llh(2);
 
     double e = ECCENTRICITY;

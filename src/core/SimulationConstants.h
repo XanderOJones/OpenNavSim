@@ -11,6 +11,7 @@ constexpr double R0 = 6378137.0;                // Earth's equatorial radius (m)
 constexpr double RP = 6356752.3142;             // Earth's polar radius (m)
 constexpr double ECCENTRICITY = 0.0818191908425;// Eccentricity
 constexpr double FLATTENING = 1.0 / 298.257223563; // Flattening
+constexpr double PI = 3.14159265358979323846;
 
 // Initial position constants (Default value set to New Mexico Tech campus)
 namespace InitPos {

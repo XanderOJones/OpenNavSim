@@ -2,7 +2,7 @@
 #define TRAJECTORY_DATA_H
 
 #include <vector>
-#include <Eigen/Dense>
+#include "../../include/Eigen/Dense"
 
 // Holds trajectory data
 class TrajectoryData {

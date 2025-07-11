@@ -1,0 +1,542 @@
+Folder PATH listing for volume New Volume
+Volume serial number is A08B-9AD8
+X:\OPENNAVSIM
+¦   .gitignore
+¦   CmakeLists.txt
+¦   main.cpp
+¦   README.md
+¦   structure.txt
+¦   TestbenchDeadReckoning.cpp
+¦   
++---.vscode
+¦       c_cpp_properties.json
+¦       launch.json
+¦       settings.json
+¦       tasks.json
+¦       
++---build
+¦   ¦   CMakeCache.txt
+¦   ¦   cmake_install.cmake
+¦   ¦   Makefile
+¦   ¦   
+¦   +---.cmake
+¦   ¦   +---api
+¦   ¦       +---v1
+¦   ¦           +---query
+¦   ¦           ¦   +---client-vscode
+¦   ¦           ¦           query.json
+¦   ¦           ¦           
+¦   ¦           +---reply
+¦   ¦                   cache-v2-5f1e22b12e7e9920afd6.json
+¦   ¦                   cmakeFiles-v1-f05823db41a9c4b9e70c.json
+¦   ¦                   codemodel-v2-ce15ddd50a0ba98868ae.json
+¦   ¦                   directory-.-Debug-d0094a50bb2071803777.json
+¦   ¦                   index-2025-07-11T14-56-24-0177.json
+¦   ¦                   toolchains-v1-56702d0391e7f9cf481b.json
+¦   ¦                   
+¦   +---CMakeFiles
+¦       ¦   cmake.check_cache
+¦       ¦   CMakeDirectoryInformation.cmake
+¦       ¦   CMakeOutput.log
+¦       ¦   Makefile.cmake
+¦       ¦   Makefile2
+¦       ¦   progress.marks
+¦       ¦   TargetDirectories.txt
+¦       ¦   
+¦       +---3.24.202208181-MSVC_2
+¦       ¦   ¦   CMakeCCompiler.cmake
+¦       ¦   ¦   CMakeCXXCompiler.cmake
+¦       ¦   ¦   CMakeDetermineCompilerABI_C.bin
+¦       ¦   ¦   CMakeDetermineCompilerABI_CXX.bin
+¦       ¦   ¦   CMakeRCCompiler.cmake
+¦       ¦   ¦   CMakeSystem.cmake
+¦       ¦   ¦   
+¦       ¦   +---CompilerIdC
+¦       ¦   ¦   ¦   a.exe
+¦       ¦   ¦   ¦   CMakeCCompilerId.c
+¦       ¦   ¦   ¦   
+¦       ¦   ¦   +---tmp
+¦       ¦   +---CompilerIdCXX
+¦       ¦       ¦   a.exe
+¦       ¦       ¦   CMakeCXXCompilerId.cpp
+¦       ¦       ¦   
+¦       ¦       +---tmp
+¦       +---CMakeTmp
+¦       +---pkgRedirects
++---cmake
++---config
++---examples
++---fusion_engines
++---include
+¦   ¦   json.hpp
+¦   ¦   
+¦   +---Eigen
+¦       ¦   Cholesky
+¦       ¦   CholmodSupport
+¦       ¦   Core
+¦       ¦   Dense
+¦       ¦   Eigen
+¦       ¦   Eigenvalues
+¦       ¦   Geometry
+¦       ¦   Householder
+¦       ¦   IterativeLinearSolvers
+¦       ¦   Jacobi
+¦       ¦   KLUSupport
+¦       ¦   LU
+¦       ¦   MetisSupport
+¦       ¦   OrderingMethods
+¦       ¦   PardisoSupport
+¦       ¦   PaStiXSupport
+¦       ¦   QR
+¦       ¦   QtAlignedMalloc
+¦       ¦   Sparse
+¦       ¦   SparseCholesky
+¦       ¦   SparseCore
+¦       ¦   SparseLU
+¦       ¦   SparseQR
+¦       ¦   SPQRSupport
+¦       ¦   StdDeque
+¦       ¦   StdList
+¦       ¦   StdVector
+¦       ¦   SuperLUSupport
+¦       ¦   SVD
+¦       ¦   UmfPackSupport
+¦       ¦   
+¦       +---src
+¦           +---Cholesky
+¦           ¦       LDLT.h
+¦           ¦       LLT.h
+¦           ¦       LLT_LAPACKE.h
+¦           ¦       
+¦           +---CholmodSupport
+¦           ¦       CholmodSupport.h
+¦           ¦       
+¦           +---Core
+¦           ¦   ¦   ArithmeticSequence.h
+¦           ¦   ¦   Array.h
+¦           ¦   ¦   ArrayBase.h
+¦           ¦   ¦   ArrayWrapper.h
+¦           ¦   ¦   Assign.h
+¦           ¦   ¦   AssignEvaluator.h
+¦           ¦   ¦   Assign_MKL.h
+¦           ¦   ¦   BandMatrix.h
+¦           ¦   ¦   Block.h
+¦           ¦   ¦   BooleanRedux.h
+¦           ¦   ¦   CommaInitializer.h
+¦           ¦   ¦   ConditionEstimator.h
+¦           ¦   ¦   CoreEvaluators.h
+¦           ¦   ¦   CoreIterators.h
+¦           ¦   ¦   CwiseBinaryOp.h
+¦           ¦   ¦   CwiseNullaryOp.h
+¦           ¦   ¦   CwiseTernaryOp.h
+¦           ¦   ¦   CwiseUnaryOp.h
+¦           ¦   ¦   CwiseUnaryView.h
+¦           ¦   ¦   DenseBase.h
+¦           ¦   ¦   DenseCoeffsBase.h
+¦           ¦   ¦   DenseStorage.h
+¦           ¦   ¦   Diagonal.h
+¦           ¦   ¦   DiagonalMatrix.h
+¦           ¦   ¦   DiagonalProduct.h
+¦           ¦   ¦   Dot.h
+¦           ¦   ¦   EigenBase.h
+¦           ¦   ¦   ForceAlignedAccess.h
+¦           ¦   ¦   Fuzzy.h
+¦           ¦   ¦   GeneralProduct.h
+¦           ¦   ¦   GenericPacketMath.h
+¦           ¦   ¦   GlobalFunctions.h
+¦           ¦   ¦   IndexedView.h
+¦           ¦   ¦   Inverse.h
+¦           ¦   ¦   IO.h
+¦           ¦   ¦   Map.h
+¦           ¦   ¦   MapBase.h
+¦           ¦   ¦   MathFunctions.h
+¦           ¦   ¦   MathFunctionsImpl.h
+¦           ¦   ¦   Matrix.h
+¦           ¦   ¦   MatrixBase.h
+¦           ¦   ¦   NestByValue.h
+¦           ¦   ¦   NoAlias.h
+¦           ¦   ¦   NumTraits.h
+¦           ¦   ¦   PartialReduxEvaluator.h
+¦           ¦   ¦   PermutationMatrix.h
+¦           ¦   ¦   PlainObjectBase.h
+¦           ¦   ¦   Product.h
+¦           ¦   ¦   ProductEvaluators.h
+¦           ¦   ¦   Random.h
+¦           ¦   ¦   Redux.h
+¦           ¦   ¦   Ref.h
+¦           ¦   ¦   Replicate.h
+¦           ¦   ¦   Reshaped.h
+¦           ¦   ¦   ReturnByValue.h
+¦           ¦   ¦   Reverse.h
+¦           ¦   ¦   Select.h
+¦           ¦   ¦   SelfAdjointView.h
+¦           ¦   ¦   SelfCwiseBinaryOp.h
+¦           ¦   ¦   Solve.h
+¦           ¦   ¦   SolverBase.h
+¦           ¦   ¦   SolveTriangular.h
+¦           ¦   ¦   StableNorm.h
+¦           ¦   ¦   StlIterators.h
+¦           ¦   ¦   Stride.h
+¦           ¦   ¦   Swap.h
+¦           ¦   ¦   Transpose.h
+¦           ¦   ¦   Transpositions.h
+¦           ¦   ¦   TriangularMatrix.h
+¦           ¦   ¦   VectorBlock.h
+¦           ¦   ¦   VectorwiseOp.h
+¦           ¦   ¦   Visitor.h
+¦           ¦   ¦   
+¦           ¦   +---arch
+¦           ¦   ¦   +---AltiVec
+¦           ¦   ¦   ¦       Complex.h
+¦           ¦   ¦   ¦       MathFunctions.h
+¦           ¦   ¦   ¦       MatrixProduct.h
+¦           ¦   ¦   ¦       MatrixProductCommon.h
+¦           ¦   ¦   ¦       MatrixProductMMA.h
+¦           ¦   ¦   ¦       PacketMath.h
+¦           ¦   ¦   ¦       
+¦           ¦   ¦   +---AVX
+¦           ¦   ¦   ¦       Complex.h
+¦           ¦   ¦   ¦       MathFunctions.h
+¦           ¦   ¦   ¦       PacketMath.h
+¦           ¦   ¦   ¦       TypeCasting.h
+¦           ¦   ¦   ¦       
+¦           ¦   ¦   +---AVX512
+¦           ¦   ¦   ¦       Complex.h
+¦           ¦   ¦   ¦       MathFunctions.h
+¦           ¦   ¦   ¦       PacketMath.h
+¦           ¦   ¦   ¦       TypeCasting.h
+¦           ¦   ¦   ¦       
+¦           ¦   ¦   +---CUDA
+¦           ¦   ¦   ¦       Complex.h
+¦           ¦   ¦   ¦       
+¦           ¦   ¦   +---Default
+¦           ¦   ¦   ¦       BFloat16.h
+¦           ¦   ¦   ¦       ConjHelper.h
+¦           ¦   ¦   ¦       GenericPacketMathFunctions.h
+¦           ¦   ¦   ¦       GenericPacketMathFunctionsFwd.h
+¦           ¦   ¦   ¦       Half.h
+¦           ¦   ¦   ¦       Settings.h
+¦           ¦   ¦   ¦       TypeCasting.h
+¦           ¦   ¦   ¦       
+¦           ¦   ¦   +---GPU
+¦           ¦   ¦   ¦       MathFunctions.h
+¦           ¦   ¦   ¦       PacketMath.h
+¦           ¦   ¦   ¦       TypeCasting.h
+¦           ¦   ¦   ¦       
+¦           ¦   ¦   +---HIP
+¦           ¦   ¦   ¦   +---hcc
+¦           ¦   ¦   ¦           math_constants.h
+¦           ¦   ¦   ¦           
+¦           ¦   ¦   +---MSA
+¦           ¦   ¦   ¦       Complex.h
+¦           ¦   ¦   ¦       MathFunctions.h
+¦           ¦   ¦   ¦       PacketMath.h
+¦           ¦   ¦   ¦       
+¦           ¦   ¦   +---NEON
+¦           ¦   ¦   ¦       Complex.h
+¦           ¦   ¦   ¦       GeneralBlockPanelKernel.h
+¦           ¦   ¦   ¦       MathFunctions.h
+¦           ¦   ¦   ¦       PacketMath.h
+¦           ¦   ¦   ¦       TypeCasting.h
+¦           ¦   ¦   ¦       
+¦           ¦   ¦   +---SSE
+¦           ¦   ¦   ¦       Complex.h
+¦           ¦   ¦   ¦       MathFunctions.h
+¦           ¦   ¦   ¦       PacketMath.h
+¦           ¦   ¦   ¦       TypeCasting.h
+¦           ¦   ¦   ¦       
+¦           ¦   ¦   +---SVE
+¦           ¦   ¦   ¦       MathFunctions.h
+¦           ¦   ¦   ¦       PacketMath.h
+¦           ¦   ¦   ¦       TypeCasting.h
+¦           ¦   ¦   ¦       
+¦           ¦   ¦   +---SYCL
+¦           ¦   ¦   ¦       InteropHeaders.h
+¦           ¦   ¦   ¦       MathFunctions.h
+¦           ¦   ¦   ¦       PacketMath.h
+¦           ¦   ¦   ¦       SyclMemoryModel.h
+¦           ¦   ¦   ¦       TypeCasting.h
+¦           ¦   ¦   ¦       
+¦           ¦   ¦   +---ZVector
+¦           ¦   ¦           Complex.h
+¦           ¦   ¦           MathFunctions.h
+¦           ¦   ¦           PacketMath.h
+¦           ¦   ¦           
+¦           ¦   +---functors
+¦           ¦   ¦       AssignmentFunctors.h
+¦           ¦   ¦       BinaryFunctors.h
+¦           ¦   ¦       NullaryFunctors.h
+¦           ¦   ¦       StlFunctors.h
+¦           ¦   ¦       TernaryFunctors.h
+¦           ¦   ¦       UnaryFunctors.h
+¦           ¦   ¦       
+¦           ¦   +---products
+¦           ¦   ¦       GeneralBlockPanelKernel.h
+¦           ¦   ¦       GeneralMatrixMatrix.h
+¦           ¦   ¦       GeneralMatrixMatrixTriangular.h
+¦           ¦   ¦       GeneralMatrixMatrixTriangular_BLAS.h
+¦           ¦   ¦       GeneralMatrixMatrix_BLAS.h
+¦           ¦   ¦       GeneralMatrixVector.h
+¦           ¦   ¦       GeneralMatrixVector_BLAS.h
+¦           ¦   ¦       Parallelizer.h
+¦           ¦   ¦       SelfadjointMatrixMatrix.h
+¦           ¦   ¦       SelfadjointMatrixMatrix_BLAS.h
+¦           ¦   ¦       SelfadjointMatrixVector.h
+¦           ¦   ¦       SelfadjointMatrixVector_BLAS.h
+¦           ¦   ¦       SelfadjointProduct.h
+¦           ¦   ¦       SelfadjointRank2Update.h
+¦           ¦   ¦       TriangularMatrixMatrix.h
+¦           ¦   ¦       TriangularMatrixMatrix_BLAS.h
+¦           ¦   ¦       TriangularMatrixVector.h
+¦           ¦   ¦       TriangularMatrixVector_BLAS.h
+¦           ¦   ¦       TriangularSolverMatrix.h
+¦           ¦   ¦       TriangularSolverMatrix_BLAS.h
+¦           ¦   ¦       TriangularSolverVector.h
+¦           ¦   ¦       
+¦           ¦   +---util
+¦           ¦           BlasUtil.h
+¦           ¦           ConfigureVectorization.h
+¦           ¦           Constants.h
+¦           ¦           DisableStupidWarnings.h
+¦           ¦           ForwardDeclarations.h
+¦           ¦           IndexedViewHelper.h
+¦           ¦           IntegralConstant.h
+¦           ¦           Macros.h
+¦           ¦           Memory.h
+¦           ¦           Meta.h
+¦           ¦           MKL_support.h
+¦           ¦           NonMPL2.h
+¦           ¦           ReenableStupidWarnings.h
+¦           ¦           ReshapedHelper.h
+¦           ¦           StaticAssert.h
+¦           ¦           SymbolicIndex.h
+¦           ¦           XprHelper.h
+¦           ¦           
+¦           +---Eigenvalues
+¦           ¦       ComplexEigenSolver.h
+¦           ¦       ComplexSchur.h
+¦           ¦       ComplexSchur_LAPACKE.h
+¦           ¦       EigenSolver.h
+¦           ¦       GeneralizedEigenSolver.h
+¦           ¦       GeneralizedSelfAdjointEigenSolver.h
+¦           ¦       HessenbergDecomposition.h
+¦           ¦       MatrixBaseEigenvalues.h
+¦           ¦       RealQZ.h
+¦           ¦       RealSchur.h
+¦           ¦       RealSchur_LAPACKE.h
+¦           ¦       SelfAdjointEigenSolver.h
+¦           ¦       SelfAdjointEigenSolver_LAPACKE.h
+¦           ¦       Tridiagonalization.h
+¦           ¦       
+¦           +---Geometry
+¦           ¦   ¦   AlignedBox.h
+¦           ¦   ¦   AngleAxis.h
+¦           ¦   ¦   EulerAngles.h
+¦           ¦   ¦   Homogeneous.h
+¦           ¦   ¦   Hyperplane.h
+¦           ¦   ¦   OrthoMethods.h
+¦           ¦   ¦   ParametrizedLine.h
+¦           ¦   ¦   Quaternion.h
+¦           ¦   ¦   Rotation2D.h
+¦           ¦   ¦   RotationBase.h
+¦           ¦   ¦   Scaling.h
+¦           ¦   ¦   Transform.h
+¦           ¦   ¦   Translation.h
+¦           ¦   ¦   Umeyama.h
+¦           ¦   ¦   
+¦           ¦   +---arch
+¦           ¦           Geometry_SIMD.h
+¦           ¦           
+¦           +---Householder
+¦           ¦       BlockHouseholder.h
+¦           ¦       Householder.h
+¦           ¦       HouseholderSequence.h
+¦           ¦       
+¦           +---IterativeLinearSolvers
+¦           ¦       BasicPreconditioners.h
+¦           ¦       BiCGSTAB.h
+¦           ¦       ConjugateGradient.h
+¦           ¦       IncompleteCholesky.h
+¦           ¦       IncompleteLUT.h
+¦           ¦       IterativeSolverBase.h
+¦           ¦       LeastSquareConjugateGradient.h
+¦           ¦       SolveWithGuess.h
+¦           ¦       
+¦           +---Jacobi
+¦           ¦       Jacobi.h
+¦           ¦       
+¦           +---KLUSupport
+¦           ¦       KLUSupport.h
+¦           ¦       
+¦           +---LU
+¦           ¦   ¦   Determinant.h
+¦           ¦   ¦   FullPivLU.h
+¦           ¦   ¦   InverseImpl.h
+¦           ¦   ¦   PartialPivLU.h
+¦           ¦   ¦   PartialPivLU_LAPACKE.h
+¦           ¦   ¦   
+¦           ¦   +---arch
+¦           ¦           InverseSize4.h
+¦           ¦           
+¦           +---MetisSupport
+¦           ¦       MetisSupport.h
+¦           ¦       
+¦           +---misc
+¦           ¦       blas.h
+¦           ¦       Image.h
+¦           ¦       Kernel.h
+¦           ¦       lapack.h
+¦           ¦       lapacke.h
+¦           ¦       lapacke_mangling.h
+¦           ¦       RealSvd2x2.h
+¦           ¦       
+¦           +---OrderingMethods
+¦           ¦       Amd.h
+¦           ¦       Eigen_Colamd.h
+¦           ¦       Ordering.h
+¦           ¦       
+¦           +---PardisoSupport
+¦           ¦       PardisoSupport.h
+¦           ¦       
+¦           +---PaStiXSupport
+¦           ¦       PaStiXSupport.h
+¦           ¦       
+¦           +---plugins
+¦           ¦       ArrayCwiseBinaryOps.h
+¦           ¦       ArrayCwiseUnaryOps.h
+¦           ¦       BlockMethods.h
+¦           ¦       CommonCwiseBinaryOps.h
+¦           ¦       CommonCwiseUnaryOps.h
+¦           ¦       IndexedViewMethods.h
+¦           ¦       MatrixCwiseBinaryOps.h
+¦           ¦       MatrixCwiseUnaryOps.h
+¦           ¦       ReshapedMethods.h
+¦           ¦       
+¦           +---QR
+¦           ¦       ColPivHouseholderQR.h
+¦           ¦       ColPivHouseholderQR_LAPACKE.h
+¦           ¦       CompleteOrthogonalDecomposition.h
+¦           ¦       FullPivHouseholderQR.h
+¦           ¦       HouseholderQR.h
+¦           ¦       HouseholderQR_LAPACKE.h
+¦           ¦       
+¦           +---SparseCholesky
+¦           ¦       SimplicialCholesky.h
+¦           ¦       SimplicialCholesky_impl.h
+¦           ¦       
+¦           +---SparseCore
+¦           ¦       AmbiVector.h
+¦           ¦       CompressedStorage.h
+¦           ¦       ConservativeSparseSparseProduct.h
+¦           ¦       MappedSparseMatrix.h
+¦           ¦       SparseAssign.h
+¦           ¦       SparseBlock.h
+¦           ¦       SparseColEtree.h
+¦           ¦       SparseCompressedBase.h
+¦           ¦       SparseCwiseBinaryOp.h
+¦           ¦       SparseCwiseUnaryOp.h
+¦           ¦       SparseDenseProduct.h
+¦           ¦       SparseDiagonalProduct.h
+¦           ¦       SparseDot.h
+¦           ¦       SparseFuzzy.h
+¦           ¦       SparseMap.h
+¦           ¦       SparseMatrix.h
+¦           ¦       SparseMatrixBase.h
+¦           ¦       SparsePermutation.h
+¦           ¦       SparseProduct.h
+¦           ¦       SparseRedux.h
+¦           ¦       SparseRef.h
+¦           ¦       SparseSelfAdjointView.h
+¦           ¦       SparseSolverBase.h
+¦           ¦       SparseSparseProductWithPruning.h
+¦           ¦       SparseTranspose.h
+¦           ¦       SparseTriangularView.h
+¦           ¦       SparseUtil.h
+¦           ¦       SparseVector.h
+¦           ¦       SparseView.h
+¦           ¦       TriangularSolver.h
+¦           ¦       
+¦           +---SparseLU
+¦           ¦       SparseLU.h
+¦           ¦       SparseLUImpl.h
+¦           ¦       SparseLU_column_bmod.h
+¦           ¦       SparseLU_column_dfs.h
+¦           ¦       SparseLU_copy_to_ucol.h
+¦           ¦       SparseLU_gemm_kernel.h
+¦           ¦       SparseLU_heap_relax_snode.h
+¦           ¦       SparseLU_kernel_bmod.h
+¦           ¦       SparseLU_Memory.h
+¦           ¦       SparseLU_panel_bmod.h
+¦           ¦       SparseLU_panel_dfs.h
+¦           ¦       SparseLU_pivotL.h
+¦           ¦       SparseLU_pruneL.h
+¦           ¦       SparseLU_relax_snode.h
+¦           ¦       SparseLU_Structs.h
+¦           ¦       SparseLU_SupernodalMatrix.h
+¦           ¦       SparseLU_Utils.h
+¦           ¦       
+¦           +---SparseQR
+¦           ¦       SparseQR.h
+¦           ¦       
+¦           +---SPQRSupport
+¦           ¦       SuiteSparseQRSupport.h
+¦           ¦       
+¦           +---StlSupport
+¦           ¦       details.h
+¦           ¦       StdDeque.h
+¦           ¦       StdList.h
+¦           ¦       StdVector.h
+¦           ¦       
+¦           +---SuperLUSupport
+¦           ¦       SuperLUSupport.h
+¦           ¦       
+¦           +---SVD
+¦           ¦       BDCSVD.h
+¦           ¦       JacobiSVD.h
+¦           ¦       JacobiSVD_LAPACKE.h
+¦           ¦       SVDBase.h
+¦           ¦       UpperBidiagonalization.h
+¦           ¦       
+¦           +---UmfPackSupport
+¦                   UmfPackSupport.h
+¦                   
++---sensors
+¦       Orientus_IMU_calibrated.json
+¦       
++---src
+¦   +---core
+¦   ¦   ¦   GroundTruthGenerator.cpp
+¦   ¦   ¦   GroundTruthGenerator.h
+¦   ¦   ¦   IMUSimulator.cpp
+¦   ¦   ¦   IMUSimulator.h
+¦   ¦   ¦   IMUSpec.cpp
+¦   ¦   ¦   IMUSpec.h
+¦   ¦   ¦   SensorFusionEngine.cpp
+¦   ¦   ¦   SensorFusionEngine.h
+¦   ¦   ¦   SensorMeasurement.h
+¦   ¦   ¦   SimulationConstants.h
+¦   ¦   ¦   State.cpp
+¦   ¦   ¦   State.h
+¦   ¦   ¦   TrajectoryData.cpp
+¦   ¦   ¦   TrajectoryData.h
+¦   ¦   ¦   
+¦   ¦   +---INSMechanization
+¦   ¦           IMUMeasurement.h
+¦   ¦           INSMechanizationBase.h
+¦   ¦           INSMechanizationFactory.h
+¦   ¦           TangentialFrameMechanization.cpp
+¦   ¦           TangentialFrameMechanization.h
+¦   ¦           
+¦   +---utils
+¦           MathUtils.h
+¦           NavUtils.h
+¦           
++---tests
++---trajectories
+    +---one_10k_loop
+            one_10k_loop_corrected_csv_a_t__t_b.csv
+            one_10k_loop_corrected_csv_C_t__b.csv
+            one_10k_loop_corrected_csv_r_t__t_b.csv
+            one_10k_loop_corrected_csv_timestamps.csv
+            one_10k_loop_corrected_csv_v_t__t_b.csv
+            

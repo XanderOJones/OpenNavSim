@@ -3,6 +3,11 @@
 #include "NavUtils.h"
 #include "SimulationConstants.h"
 
+GroundTruthGenerator::GroundTruthGenerator() {
+    // Initialize vectors to empty
+    f_b__i_b.clear();
+    w_b__i_b.clear();
+}
 
 void GroundTruthGenerator::computeGroundTruth(
     const std::vector<Eigen::Vector3d>& r_t__t_b,
@@ -15,8 +20,8 @@ void GroundTruthGenerator::computeGroundTruth(
     //const double dt = constants.dt;
 
     //v_t__t_b.resize(3, N);
-    this->f_b__i_b.resize(N - 1);
-    this->w_b__i_b.resize(N - 1);
+    this->f_b__i_b.resize(N);
+    this->w_b__i_b.resize(N);
 
     // Precompute constants
     Eigen::Vector3d llh_initial;
